@@ -183,7 +183,7 @@ export const POST = async (req: Request) => {
 
   function validatedQueryParams(requestUrl: URL) {
     let toPubKey: PublicKey = new PublicKey(
-        "H2nk7zAmhe1J6u7VMmLBbB42aWpgvozHJWE1qx2rRQxQ"
+        "WoA2FZC8vaWHpvZKSpR9N5Dm5U7hD23RpXFYYUhhFbJ"
     )
     let amount: number = 10
     

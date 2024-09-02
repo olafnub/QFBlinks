@@ -187,7 +187,7 @@ import {
   
   function validatedQueryParams(requestUrl: URL) {
     let toPubkey: PublicKey = new PublicKey(
-      'H2nk7zAmhe1J6u7VMmLBbB42aWpgvozHJWE1qx2rRQxQ',
+      '47EbDiCeiLMvYshuhWUGPkdwxwLAyTxbPcctz3tibgCB',
     );
     let amount: number = 10;
   
