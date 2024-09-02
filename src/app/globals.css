@@ -31,3 +31,20 @@ body {
     text-wrap: balance;
   }
 }
+
+.pool:hover {
+  background-color: green;
+}
+
+.ind:hover {
+  background-color:royalblue;
+}
+
+.match-funds button {
+  height: 100%;
+  width: 3rem;
+}
+
+tr {
+  border-bottom: 1px solid white;
+}
