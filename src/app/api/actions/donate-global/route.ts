@@ -63,8 +63,8 @@ export const GET = async (req: Request) => {
 
     const payload: ActionGetResponse = await client.createActionGetResponseV1(requestUrl.toString(), {
       type: "action",
-      title: "Global Pot, @QFTips",
-      icon: new URL("/QFTipsGlobal.gif", requestUrl.origin).toString(),
+      title: "Global Pot, @QFTip",
+      icon: new URL("/QFTipGlobal.gif", requestUrl.origin).toString(),
       description: "The global pot that will be distributed to each track using Quadratic Funding. This is the pool if you're unsure which cause you want to support but at the end will donate to all three.",
       label: "Transfer", // this value will be ignored since `links.actions` exists
       links: {
