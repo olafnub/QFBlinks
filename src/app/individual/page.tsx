@@ -16,7 +16,7 @@ export default function Individual() {
         </CardHeader>
         <CardContent>
           <form className="space-y-4">
-            <div>
+            <div className="text-red">
               <label className="block text-sm font-medium text-gray-700">Select a Track</label>
               <Select>
                 <SelectTrigger className="w-full">
@@ -29,11 +29,11 @@ export default function Individual() {
                 </SelectContent>
               </Select>
             </div>
-            <div>
+            {/* <div>
               <label className="block text-sm font-medium text-gray-700">Donation Amount</label>
               <Input type="number" placeholder="Enter amount" />
             </div>
-            <Button className="w-full">Donate</Button>
+            <Button className="w-full">Donate</Button> */}
           </form>
         </CardContent>
       </Card>
