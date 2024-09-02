@@ -36,12 +36,12 @@ export default function MatchFunds() {
           <CardTitle>Contribute to Match Funds</CardTitle>
           <CardDescription>Your contribution will be used to amplify the impact of individual donations</CardDescription>
         </CardHeader>
-        <CardContent>
+        {/* <CardContent>
           <div className="flex items-center space-x-2">
             <Input type="number" placeholder="Enter amount" />
             <Button>Contribute</Button>
           </div>
-        </CardContent>
+        </CardContent> */}
         <CardFooter>
           <p className="text-sm text-gray-500">All contributions are securely processed and distributed according to the QF algorithm.</p>
         </CardFooter>
