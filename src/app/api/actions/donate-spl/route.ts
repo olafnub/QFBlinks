@@ -80,7 +80,9 @@ import {
   
   // DO NOT FORGET TO INCLUDE THE `OPTIONS` HTTP METHOD
   // THIS WILL ENSURE CORS WORKS FOR BLINKS
-  export const OPTIONS = GET;
+  export const OPTIONS = async (req: Request) => {
+    return new Response(null, { headers });
+  };
   
   export const POST = async (req: Request) => {
     try {
