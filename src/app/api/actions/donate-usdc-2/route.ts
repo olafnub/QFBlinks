@@ -24,7 +24,7 @@ import {
       const { toPubkey } = validatedQueryParams(requestUrl);
   
       const baseHref = new URL(
-        `/api/actions/donate-spl?to=${toPubkey.toBase58()}`,
+        `/api/actions/donate-usdc-2?to=${toPubkey.toBase58()}`,
         requestUrl.origin,
       ).toString();
   

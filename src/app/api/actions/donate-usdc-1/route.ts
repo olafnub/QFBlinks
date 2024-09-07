@@ -23,7 +23,7 @@ export const GET = async (req: Request) => {
         const { toPubKey } = validatedQueryParams(requestUrl)
         
         const baseHref = new URL(
-            `/api/actions/donate-usdc?to=${toPubKey.toBase58()}`,
+            `/api/actions/donate-usdc-1?to=${toPubKey.toBase58()}`,
             requestUrl.origin
         ).toString()
 
@@ -76,7 +76,7 @@ export const GET = async (req: Request) => {
     }
 }
 
-export const OPTIONS = GET
+export const OPTIONS = GET;
 
 export const POST = async (req: Request) => {
     try {
