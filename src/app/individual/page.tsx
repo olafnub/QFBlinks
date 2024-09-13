@@ -10,14 +10,14 @@ export default function Individual() {
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold text-center mb-8">Individual Donator</h1>
       <Card className="mb-8">
-        <CardHeader>
+        {/* <CardHeader>
           <CardTitle>Make a Donation</CardTitle>
           <CardDescription>Your contribution will be amplified through Quadratic Funding</CardDescription>
-        </CardHeader>
-        <CardContent>
+        </CardHeader> */}
+        {/* <CardContent>
           <form className="space-y-4">
-            <div className="text-red">
-              <label className="block text-sm font-medium text-gray-700">Select a Track</label>
+            <div className="text-red"> */}
+              {/* <label className="block text-sm font-medium text-gray-700">Select a Track</label>
               <Select>
                 <SelectTrigger className="w-full">
                   <SelectValue placeholder="Choose a track" />
@@ -27,15 +27,15 @@ export default function Individual() {
                   <SelectItem value="causes">Causes</SelectItem>
                   <SelectItem value="animals">Animals</SelectItem>
                 </SelectContent>
-              </Select>
-            </div>
+              </Select> */}
+            {/* </div> */}
             {/* <div>
               <label className="block text-sm font-medium text-gray-700">Donation Amount</label>
               <Input type="number" placeholder="Enter amount" />
             </div>
             <Button className="w-full">Donate</Button> */}
-          </form>
-        </CardContent>
+          {/* </form>
+        </CardContent> */}
       </Card>
       <Card>
         <CardHeader>

@@ -60,6 +60,11 @@ export default function Home() {
           </Link>
         </div>
       </section>
+      <footer>
+        <div>
+          Contact: li002488@umn.edu
+        </div>
+      </footer>
     </main>
   );
 }
